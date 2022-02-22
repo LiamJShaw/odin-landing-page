@@ -5,33 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href = "https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab|Roboto:300,400,500,700" rel = "stylesheet" />
     <title>W'Girls.com</title>
 </head>
 <body>
-    <div class="header">
-        <div class="logo">Daisy and Ashleigh</div>
-        <div class="links">
-            <ul>
-                <li><a href="#">Daisy</a></li>
-                <li><a href="#">Ashleigh</a></li>
-                <li><a href="#">The Dog</a></li>
-            </ul>
-        </div>
-    </div>
+    <header>
+        <div class="container">
+            <div class="logo">
+                Daisy and Ashleigh
+            </div>
 
-    <div class="hero">
-        <div class="hero-content">
-            <p class="hero-heading">This website is awesome</p>
-            <p class="hero-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-            <button>Sign up</button>
-        </div>
-        <img src="both.jpg" alt="Ashleigh and Daisy">
-    </div>
+            <nav class="links">
+                <ul>
+                    <li><a href="#">Daisy</a></li>
+                    <li><a href="#">Ashleigh</a></li>
+                    <li><a href="#">The Dog</a></li>
+                </ul>
+            </nav>
+        </div>        
+    </header>
 
-    <div class="info-container">
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>This website is awesome</h1>
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                <button>Sign up</button>
+            </div>
+            <img src="images/us-01.jpg" alt="Ashleigh and Daisy">
+        </div>
+    </section>
+
+    <section class="information">
         <h2>Some random information.</h2>
 
-        <div class="image-wrapper">
+        <div class="container">
             <div class="image">
                 <img src="1.jpg" alt="1">
                 <div class="text">This is some subtext under an image</div>
@@ -52,23 +60,31 @@
                 <div class="text">This is some subtext under an image</div>
             </div>
         </div>
-    </div>
-
-    <div class="quote">
-        <p class="quote-text">This is an inspiring quote</p>
-        <p class="author">Daisy</p>
-    </div>
-
-    <div class="signup">
-        <div class="signup-container">
-            <p>Call to action! It's time!</p>
-            <p class="subtext">Sign up for our product by clicking the button</p>
-            <button>Sign up</button>
+    </section>
+    
+    <section class="quote">
+        <div class="container">
+            <p class="quote-text">Has anyone really been far even as decided to use even go want to do look more like?</p>
+            <p class="author">- Daisy, the baby</p>
         </div>
-    </div>
+    </section>
+    
+    
+    <section class="signup">
+        <div class="container">
+            <div class="action-content">
+                <p>Call to action! It's time!</p>
+                <p class="subtext">Sign up for our product by clicking the button</p>
+                
+            </div>
 
-    <div class="footer">
+            <button>Sign up</button>
+
+        </div>
+    </section>
+
+    <footer>
         <p>Copyright (c) Liam Shaw 2022</p>
-    </div>
+    </footer>
 </body>
 </html>
